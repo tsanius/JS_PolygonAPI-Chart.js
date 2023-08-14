@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+body {
+  font-family: sans-serif;
+  font-size: 150%;
+  line-height: 1.4;
+  margin-left: 50px;
+}
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* section styles */
+section {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(3, 700px);
+  grid-gap: 25px 1px;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+/*creates evenly sized articles*/
+section > * {
+  flex: 0 0 auto;
+}
+section article {
+  border: 1px solid black;
+  box-shadow: 0 2px 14px grey;
+  padding: 1.5%;
+}
+article img {
+  margin: auto;
+  display: block;
+  height: 40%;
+}
+section p {
+  margin: 5px 0;
+}
+
+section ul {
+  margin-top: 0;
+}
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  background-image: url("images/stocks.jpg");
+  background-size: cover;
+  font-size: 12px;
+}
+label {
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+}
+tr {
+  font-size: small;
+}
+th {
+  font-weight: 8;
+}
+
+#format {
+  display: flex;
+  height: 400px;
+}
+#table {
+  overflow-y: scroll;
+}
+#tables {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#portfolio {
+  width: 800px;
+  height: 500px;
+}
