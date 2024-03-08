@@ -1,6 +1,6 @@
 //required tags
 const studentId = document.getElementById("studentId");
-studentId.textContent = "200523537; Joshua Burt";
+studentId.textContent = "Hello Ruslan";
 //date
 const currentDate = new Date();
 function formatDateToYearMonthDay(date) {
